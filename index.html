@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaco</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="icon/shaco.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Shaco</h1>
+        <p>Que tal um truque de mágica?</p>
+    </header>
+    <main>
+        <img src="images/shaco.jpg" alt="Shaco">
+
+        <audio id="myAudio">
+            <source src="audio/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p>Shaco quer falar com você</p>
+
+        <button onclick="playAudio()" type="button" class="button">Play</button>
+        <button onclick="pauseAudio()" type="button" class="button">Pause</button>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/Jocelos">Gustavo Joceli</a></p>
+    </footer>
+
+    <script>
+        var x = document.getElementById("myAudio"); 
+        
+        function playAudio() { 
+          x.play(); 
+        } 
+        
+        function pauseAudio() { 
+          x.pause(); 
+        } 
+        </script>
+        
+</body>
+</html>
