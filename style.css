@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(43, 0, 0);
+}
+
+img {
+  margin: 40px;
+  display: block;
+  width: 800px;
+  place-self: center;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.107);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  img {
+    width: 400px;
+  }
+}
